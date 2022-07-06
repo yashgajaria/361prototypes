@@ -22,6 +22,8 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Map from "./pages/Map";
 import Power from "./pages/Power";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 export default function App() {

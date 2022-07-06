@@ -19,15 +19,18 @@ const surveyJson = {
       choices:[
         {
           value:"natural",
-          imageLink:"https://www.stantec.com/content/dam/stantec/images/ideas/blogs/009/what-makes-successful-study-space-academic-building-2.jpg" //Source: https://www.stantec.com/en/ideas/content/blog/2017/studying-the-spaces-designed-for-studying-science
+          imageLink:"https://surveyjs.io/Content/Images/examples/image-picker/lion.jpg" //Source: https://www.stantec.com/en/ideas/content/blog/2017/studying-the-spaces-designed-for-studying-science
         },
         {
           value:"mid",
-          imageLink:"https://www.stantec.com/content/dam/stantec/images/ideas/blogs/009/what-makes-successful-study-space-academic-building-4.jpg.transform/small/image.20200421.jpeg" //Source https://www.stantec.com/en/ideas/content/blog/2017/studying-the-spaces-designed-for-studying-science
+          imageLink:<img src="/home/yash/Documents/361prototypes/images/Medium.jpg" width="50" height="50"/>
+          //Source: https://www.pinterest.ca/pin/woodward-library-basement-study-area-this-location-has-all-science-books-and-text-books-as-well-as-some-table-space--395472410998781179/
+          // imageLink:"/home/yash/Documents/361prototypes/images/Medium.jpg"//Source: https://www.pinterest.ca/pin/woodward-library-basement-study-area-this-location-has-all-science-books-and-text-books-as-well-as-some-table-space--395472410998781179/
+          // imageLink:"https://surveyjs.io/Content/Images/examples/image-picker/giraffe.jpg"//Source: https://www.pinterest.ca/pin/woodward-library-basement-study-area-this-location-has-all-science-books-and-text-books-as-well-as-some-table-space--395472410998781179/
         },
         {
           value:"dark",
-          imageLink:"https://www.thoughtco.com/thmb/te6wg6ehTIjb9JHMAPe_tEQhsHg=/768x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/StudyingAtNight-58c2c2635f9b58af5ca0464b.jpg" //Source: https://www.thoughtco.com/studying-night-before-test-3212056
+          imageLink:"/./images/Dark2.jpg" //Source: https://www.thoughtco.com/studying-night-before-test-3212056
         }
       ]
     },
@@ -38,15 +41,15 @@ const surveyJson = {
       choices:[
         {
           value:"loud",
-          imageLink:"https://brocku.ca/brock-news/wp-content/uploads/2021/09/Rankin-Family-Pavilion-RS-1600x900.jpg?x70330" //https://brocku.ca/brock-news/2021/09/spaces-available-across-campus-for-individual-group-study/
+          imageLink:"https://surveyjs.io/Content/Images/examples/image-picker/lion.jpg" //https://brocku.ca/brock-news/2021/09/spaces-available-across-campus-for-individual-group-study/
         },
         {
-          value:"medium",
-          imageLink:"https://students.ubc.ca/sites/students.ubc.ca/files/styles/blog_header_image_widescreen_1x/public/20171201%20-%20Study%20Spaces%20-%20Roberge%20-%205_2.jpg?itok=P-1ttAqw" //https://students.ubc.ca/ubclife/which-ubc-library-you
+          value:"meduim",
+          imageLink:"https://surveyjs.io/Content/Images/examples/image-picker/giraffe.jpg" //https://students.ubc.ca/ubclife/which-ubc-library-you
         },
         {
           value:"silent",
-          imageLink:"https://nowtoronto.com/wp-content/uploads/2020/06/GeorgeBrownCollege-studyspace-980x618.jpg" //https://nowtoronto.com/lifestyle/education/study-space-toronto-colleges-universities
+          imageLink:"https://surveyjs.io/Content/Images/examples/image-picker/giraffe.jpg" //https://nowtoronto.com/lifestyle/education/study-space-toronto-colleges-universities
         }
       ]
     },
@@ -55,9 +58,9 @@ const surveyJson = {
       name: "question3",
       title: "What is your purpose for your next study session?",
       choices: [
-       "Group_Study",
-       "Personal_Focus_Session",
-       "Casual_Personal_Study"
+       "Group Study",
+       "Personal Focus Session",
+       "Casual Personal Study"
       ]
      }
   ]
@@ -103,8 +106,7 @@ function Home() {
       justifyContent: 'center',
     }}
   >
-    <p>If you would like to upload your own data to contribute to the project below, please copy and paste it onto the Google Sheets below and manually enter your location</p>
-    <Button href="https://docs.google.com/spreadsheets/d/1o9cdA617yVi5t83aChn91FvQts81s50UOKpZBTdb6ZI/edit?usp=sharing" target="_blank">Upload Personal Data</Button> 
+    <Button href="https://docs.google.com/spreadsheets/d/1o9cdA617yVi5t83aChn91FvQts81s50UOKpZBTdb6ZI/edit?usp=sharing">Upload Personal Data</Button> 
   </div>
 </>
   )
