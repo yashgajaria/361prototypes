@@ -55,9 +55,9 @@ const surveyJson = {
       name: "question3",
       title: "What is your purpose for your next study session?",
       choices: [
-       "Group_Study",
-       "Personal_Focus_Session",
-       "Casual_Personal_Study"
+       "Group Study",
+       "Personal Focus Session",
+       "Casual Personal Study"
       ]
      }
   ]

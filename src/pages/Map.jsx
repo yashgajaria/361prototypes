@@ -20,9 +20,9 @@ const reccomendedDictNoise= {
   silent: "E5 Quiet Study"
 }
 const reccomendedDictPurpose= {
-  Group_Study: "E5/E7 Atrium",
-  Personal_Focus_Session: "DC Quiet Study",
-  Casual_Personal_Study: "SLC Food Court Balcony"
+  "Group Study": "E5/E7 Atrium",
+  "Personal Focus Session": "DC Quiet Study",
+  "Casual Personal Study": "SLC Food Court Balcony"
 }
 
 
