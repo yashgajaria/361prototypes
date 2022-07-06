@@ -7,9 +7,9 @@ import {useLocation} from "react-router-dom";
 
 export default function Home() {
 
-const { state } = useLocation(); 
-const [powerBI, setPowerBI] = useState("https://app.powerbi.com/reportEmbed?reportId=649c6934-414b-4999-bc2d-8ff47ea0d01c&autoAuth=true&ctid=723a5a87-f39a-4a22-9247-3fc240c01396&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWNhbmFkYS1jZW50cmFsLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9")
-var resp = JSON.parse(state.results);
+// const { state } = useLocation(); 
+const [powerBI, setPowerBI] = useState("https://app.powerbi.com/reportEmbed?reportId=b4e13873-5a70-4ccb-ad5a-bda4cd19d354&autoAuth=true&ctid=723a5a87-f39a-4a22-9247-3fc240c01396&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWNhbmFkYS1jZW50cmFsLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9")
+// var resp = JSON.parse(state.results);
 const recomendedDictLight= {
   natural: "EV3",
   mid: "E7 Atrium",
@@ -35,13 +35,13 @@ const recomendedDictPurpose= {
     <>
     <div className="Home">
       <h2> Recommended Places</h2>
-          <p>{recomendedDictLight[resp.question1]}</p>
-          <p>{recomendedDictNoise[resp.question2]}</p>
-          <p>{recomendedDictPurpose[resp.question3]}</p>
+          <p>{recomendedDictLight["natural"]}</p>
+          <p>{recomendedDictNoise["medium"]}</p>
+          <p>{recomendedDictPurpose["Casual Personal Study"]}</p>
           {/* <Button onclick={updatePower}>
               Change Option
             </Button> */}
-<iframe title="361 Project" width="1598.85" height="758.35" src={powerBI} frameBorder="0" allowFullScreen={true}></iframe>    </div>
+<iframe title="361 Project" width="1598.85" height="758.35" src="https://app.powerbi.com/reportEmbed?reportId=51a7ac56-d1d1-4e4d-b841-6bac98a02572&autoAuth=true&ctid=723a5a87-f39a-4a22-9247-3fc240c01396&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWNhbmFkYS1jZW50cmFsLXJlZGlyZWN0LmFuYWx5c2lzLndpbmRvd3MubmV0LyJ9" frameBorder="0" allowFullScreen={true}></iframe>    </div>
 <h3>Want to Advocate?</h3>
 <Table striped bordered hover>
   <thead>

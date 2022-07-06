@@ -42,7 +42,7 @@ const surveyJson = {
         },
         {
           value:"medium",
-          imageLink:"https://students.ubc.ca/sites/students.ubc.ca/files/styles/blog_header_image_widescreen_1x/public/20171201%20-%20Study%20Spaces%20-%20Roberge%20-%205_2.jpg?itok=P-1ttAqw" //https://students.ubc.ca/ubclife/which-ubc-library-you
+          imageLink:"https://www.advisor.ca/wp-content/uploads/sites/5/2018/12/800x600_Education_Classroom_54318832_xl123RFStockPhoto.jpg" //https://www.advisor.ca/news/industry-news/university-of-waterloo-will-teach-sustainable-financial-management/
         },
         {
           value:"silent",
@@ -103,8 +103,15 @@ function Home() {
       justifyContent: 'center',
     }}
   >
+    <div style={{
+      paddingBottom: "100px",
+      justifyContent: "center",
+      alignItems: 'center',
+    }}>
     <p>If you would like to upload your own data to contribute to the project below, please copy and paste it onto the Google Sheets below and manually enter your location</p>
-    <Button href="https://docs.google.com/spreadsheets/d/1o9cdA617yVi5t83aChn91FvQts81s50UOKpZBTdb6ZI/edit?usp=sharing" target="_blank">Upload Personal Data</Button> 
+    </div>
+    
+    <Button variant="success" href="https://docs.google.com/spreadsheets/d/1o9cdA617yVi5t83aChn91FvQts81s50UOKpZBTdb6ZI/edit?usp=sharing" target="_blank">Upload Personal Data</Button> 
   </div>
 </>
   )
