@@ -41,7 +41,7 @@ const recomendedDictPurpose= {
           {/* <Button onclick={updatePower}>
               Change Option
             </Button> */}
-<iframe title="361 Project" width="1598.85" height="758.35" src="https://app.powerbi.com/reportEmbed?reportId=34a75323-edc1-43a7-893f-fe9747a06388&autoAuth=true&ctid=1b397bdc-38a1-4f81-ac88-5873e19c263d&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly93YWJpLWNhbmFkYS1jZW50cmFsLWItcHJpbWFyeS1yZWRpcmVjdC5hbmFseXNpcy53aW5kb3dzLm5ldC8ifQ%3D%3D" frameBorder="0" allowFullScreen={true}></iframe>    </div>
+<iframe title="361 Project" width="1598.85" height="758.35" src=" https://app.powerbi.com/view?r=eyJrIjoiNjg0Y2M5MWUtMWVhZi00ZWI4LTlkMjAtODlhOWU3YmRjYzk3IiwidCI6IjFiMzk3YmRjLTM4YTEtNGY4MS1hYzg4LTU4NzNlMTljMjYzZCJ9" frameBorder="0" allowFullScreen={true}></iframe>    </div>
 <h3>Want to Advocate?</h3>
 <Table striped bordered hover>
   <thead>
