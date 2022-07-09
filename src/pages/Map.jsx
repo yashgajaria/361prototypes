@@ -37,7 +37,7 @@ export default function Home() {
         <p>{recomendedDictNoise[resp.question2]}</p>
         <p>{recomendedDictPurpose[resp.question3]}</p>
         {/* HTML Element of the PowerBI Dashboard */}
-      <iframe title="361 Project" width="1360.85" height="646.35" src=" https://app.powerbi.com/view?r=eyJrIjoiODliZWJmOWUtNTc2My00Yjc1LThhOWMtMjM0YzQ3MGRhODQ3IiwidCI6IjFiMzk3YmRjLTM4YTEtNGY4MS1hYzg4LTU4NzNlMTljMjYzZCJ9" frameBorder="0" allowFullScreen={true}></iframe>
+      <iframe title="361 Project" width="1360.85" height="646.35" src="https://app.powerbi.com/view?r=eyJrIjoiNjg0Y2M5MWUtMWVhZi00ZWI4LTlkMjAtODlhOWU3YmRjYzk3IiwidCI6IjFiMzk3YmRjLTM4YTEtNGY4MS1hYzg4LTU4NzNlMTljMjYzZCJ9" frameBorder="0" allowFullScreen={true}></iframe>
     </div>
     {/* Table with details on who to contact to advocate */}
 <h3>Want to Advocate?</h3>
