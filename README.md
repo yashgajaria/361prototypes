@@ -13,10 +13,10 @@ Option to become part of the greater community that powers this app by contribut
 ![image](https://user-images.githubusercontent.com/43117838/178119982-ed733b0a-cff8-4043-b514-56ff0650a3d3.png)
 
 Data Visualization Dashboard to view the data, along with recommendations and contact details of important people for advocacy
-![image](https://user-images.githubusercontent.com/43117838/178122165-3951cfa6-69db-40d5-a47a-b6ede9688569.png)
+![image](https://user-images.githubusercontent.com/43117838/178122724-72dcd23c-57c5-4f42-a781-2b6703054228.png)
+
 Different pages on the PowerBI Dashboard:
-![image](https://user-images.githubusercontent.com/43117838/178122177-6f3ca3c9-fc14-45a4-8c2f-57087fc1bc49.png)
-![image](https://user-images.githubusercontent.com/43117838/178122188-94c088c2-5a87-4c61-bbf2-ec007a2861f7.png)
+![image](https://user-images.githubusercontent.com/43117838/178122738-5721b588-1aac-47f1-ac24-26621309a09a.png)
 
 ## Create React App Template Details:
 
