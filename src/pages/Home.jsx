@@ -1,8 +1,7 @@
-import React, { useState, useEffect, useCallback } from "react";
-import { PageHeader, ListGroup, ListGroupItem, Button } from "react-bootstrap";
-import { Link, useNavigate } from "react-router-dom";
+import React, { useCallback } from "react";
+import { Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import "./Home.css";
-import { LinkContainer } from "react-router-bootstrap";
 import "survey-core/modern.min.css";
 import { StylesManager, Model } from "survey-core";
 import { Survey } from "survey-react-ui";
@@ -10,6 +9,7 @@ import { Survey } from "survey-react-ui";
 StylesManager.applyTheme("modern");
 
 
+//JSON model for survey questions and options 
 const surveyJson = {
   elements: [
     {
@@ -62,24 +62,20 @@ const surveyJson = {
      }
   ]
 };
-// Survey template: Survey JS surveyjs.io
+// Survey template source: Survey JS surveyjs.io
 
+//Main function for survey logic on the home page-> this section handles the survey responses
 function Home() {
+  //Establish survey model and initiate navigate
   const survey = new Model(surveyJson);
   const navigate = useNavigate();
-  survey.focusFirstQuestionAutomatic = false;
 
+  //Handle completation of survey and redirect
   const alertResults = useCallback((sender) => {
     const results = JSON.stringify(sender.data);
-    console.log(results);
-    // navigate.push({
-    //   pathname: '/map',
-    //     state: "hello"
-    // });
-    
-    navigate('/map', { state: { results:results }});
 
-    // alert(results);
+    //Redirect to map page and pass in survey results
+    navigate('/map', { state: { results:results }});
   }, []);
 
   survey.onComplete.add(alertResults);
@@ -108,10 +104,10 @@ function Home() {
       justifyContent: "center",
       alignItems: 'center',
     }}>
-    <p>If you would like to upload your own data to contribute to the project below, please copy and paste it onto the Google Sheets below and manually enter your location</p>
+      {/* Section to prompt users to upload their own data */}
+    <p>If you would like to upload your own data to contribute to the project below, please copy and paste it (following the same format) onto the Google Sheets below and manually enter your location for your data</p>
     </div>
-    
-    <Button variant="success" href="https://docs.google.com/spreadsheets/d/1o9cdA617yVi5t83aChn91FvQts81s50UOKpZBTdb6ZI/edit?usp=sharing" target="_blank">Upload Personal Data</Button> 
+      <Button variant="success" href="https://docs.google.com/spreadsheets/d/1o9cdA617yVi5t83aChn91FvQts81s50UOKpZBTdb6ZI/edit?usp=sharing" target="_blank">Upload Personal Data</Button> 
   </div>
 </>
   )

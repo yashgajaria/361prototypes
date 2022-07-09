@@ -1,32 +1,21 @@
 import React from "react";
 import {Outlet} from "react-router-dom";
-// import Navbar from "../Navbar";
-import {Navbar, Nav, NavItem} from 'react-bootstrap';
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import {Navbar} from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 
-
-
-
+//Layout of page in general
 const Layout = () => {
   return (
     <>
-      {/* <Navbar /> */}
+    {/* Navbar with WaterlooWellness title */}
       <Navbar bg="dark" variant="dark">
     <Container>
       <Navbar.Brand href="/">
-        {/* <img
-          alt=""
-          src="/logo.svg"
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-        />{' '} */}
       WaterlooWellness
       </Navbar.Brand>
-      <Link to="/">Home</Link>
     </Container>
   </Navbar>
+  {/* Actual page content comes from the outlet component */}
       <Outlet />
     </>
   );
