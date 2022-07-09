@@ -6,6 +6,17 @@ Check out the [live deployment here](https://waterloowellness1.netlify.app/)
 
 ## Screenshots:
 
+Survey to help cater personalized recommendations to users
+![image](https://user-images.githubusercontent.com/43117838/178119942-4ce3fadc-5c1f-4917-ae58-2ed0e815f185.png)
+
+Option to become part of the greater community that powers this app by contributing data for the project
+![image](https://user-images.githubusercontent.com/43117838/178119982-ed733b0a-cff8-4043-b514-56ff0650a3d3.png)
+
+Data Visualization Dashboard to view the data, along with recommendations and contact details of important people for advocacy
+![image](https://user-images.githubusercontent.com/43117838/178120003-1853d439-618f-4646-bb37-6cebfd7932ca.png)
+
+
+
 ## Create React App Template Details:
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
