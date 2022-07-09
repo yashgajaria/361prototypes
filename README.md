@@ -2,7 +2,7 @@
 
 WaterlooWellness is a data visualization platform for environmental data from different locations on campus. This platforms aims to educate students about the environments they work in and assist them in the deciding where they want to go to study. Presenting the data through these ways can equipt students with an objective means to advocate to those with decision making authority.
 
-Check out the [live deployment here](https://waterloowellness1.netlify.app/)
+Check out the [live deployment here](https://waterloowellness3.netlify.app/)
 
 ## Screenshots:
 
@@ -12,8 +12,8 @@ Survey to help cater personalized recommendations to users
 Option to become part of the greater community that powers this app by contributing data for the project
 ![image](https://user-images.githubusercontent.com/43117838/178119982-ed733b0a-cff8-4043-b514-56ff0650a3d3.png)
 
-Data Visualization Dashboard to view the data, along with recommendations and contact details of important people for advocacy
-![image](https://user-images.githubusercontent.com/43117838/178120003-1853d439-618f-4646-bb37-6cebfd7932ca.png)
+Data Visualization Dashboard to view a map and an option to select locations to watch a video description about them, along with recommendations and contact details of important people for advocacy
+![image](https://user-images.githubusercontent.com/43117838/178120776-8cf7b54d-19d6-49fc-9166-d4ecfa2b7346.png)
 
 
 
